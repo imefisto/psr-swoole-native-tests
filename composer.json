@@ -5,6 +5,11 @@
             "Imefisto\\PsrSwooleTests\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Ignacio El Kadre",
@@ -16,5 +21,9 @@
         "imefisto/psr-swoole-native": "dev-allow-upgraded-http-message",
         "nyholm/psr7": "^1.8",
         "nikic/fast-route": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "guzzlehttp/guzzle": "^7.0"
     }
 }
