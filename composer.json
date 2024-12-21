@@ -1,0 +1,20 @@
+{
+    "name": "imefisto/psr-swoole-native-tests",
+    "autoload": {
+        "psr-4": {
+            "Imefisto\\PsrSwooleTests\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ignacio El Kadre",
+            "email": "imefisto@gmail.com"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^7.0",
+        "imefisto/psr-swoole-native": "dev-allow-upgraded-http-message",
+        "nyholm/psr7": "^1.8",
+        "nikic/fast-route": "^1.3"
+    }
+}
