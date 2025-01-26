@@ -2,11 +2,15 @@
 
 # Version configurations
 declare -A versions=(
-    ["4.8-php7.3"]="psr-swoole-test-php73"
-    ["4.8-php7.4"]="psr-swoole-test-php74" 
+    ["4.8-php8.0"]="psr-swoole-test-php80"
+    ["4.8-php8.1"]="psr-swoole-test-php81"
+    ["4.8-php8.2"]="psr-swoole-test-php82"
     ["5.1-php8.0"]="psr-swoole-test-php80"
     ["5.1-php8.1"]="psr-swoole-test-php81"
     ["5.1-php8.2"]="psr-swoole-test-php82"
+    ["5.1-php8.3"]="psr-swoole-test-php83"
+    ["6.0-php8.1"]="psr-swoole-test-php81"
+    ["6.0-php8.2"]="psr-swoole-test-php82"
     ["6.0-php8.3"]="psr-swoole-test-php83"
     ["6.0-php8.4"]="psr-swoole-test-php84"
 )
@@ -23,7 +27,7 @@ fi
 
 # Validate directory exists
 if [ ! -d "$1" ]; then
-    echo "Error: Directory $1 does not exist"
+    echo "Error: Directory $1 does not exist. It should point to your local psr-swoole-native"
     exit 1
 fi
 
