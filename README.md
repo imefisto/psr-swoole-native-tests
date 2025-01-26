@@ -1,6 +1,6 @@
 # psr-swoole-native-tests
 
-This repository contains the tools to test [imefisto/psr-swoole-native] package on different setups.
+This repository contains the tools to test [imefisto/psr-swoole-native](https://github.com/imefisto/psr-swoole-native) package on different versions of PHP and Swoole.
 
 ## Usage for testing a local version of psr-swoole-native
 
